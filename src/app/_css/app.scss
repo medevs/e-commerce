@@ -99,7 +99,7 @@ h6 {
 }
 
 p {
-  margin: 0
+  margin: 0;
 }
 
 ul,
@@ -111,6 +111,7 @@ ol {
 
 a {
   color: var(--color-dark-500);
+  text-decoration: none;
 
   &:focus {
     opacity: .8;
